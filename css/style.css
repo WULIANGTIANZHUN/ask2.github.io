@@ -2041,7 +2041,7 @@ body input {
   transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
 }
 .galleries .wrap .item:hover {
-  filter: grayscale(100%);
+  transform: scale(1.05);
 }
 .galleries .wrap .item .title-wrap,
 .galleries .wrap .item img {
@@ -2096,7 +2096,7 @@ body input {
   transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
 }
 .gallery .wrap .item:hover {
-  filter: grayscale(100%);
+  transform: scale(1.05);
 }
 .gallery .wrap .item img {
   position: absolute;
@@ -2122,7 +2122,7 @@ body input {
   transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
 }
 .gallery .waterfallWrap .item:hover {
-  filter: grayscale(100%);
+  transform: scale(1.05);
 }
 .gallery .waterfallWrap .item img {
   display: block;
